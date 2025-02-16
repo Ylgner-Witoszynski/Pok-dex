@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- Declaração do tipo de documento, informa que é um documento HTML5 -->
+<html lang="en">
+  <!-- Início do documento HTML, define o idioma como inglês -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura a viewport para responsividade em dispositivos móveis -->
+
+    <link rel="icon" href="./icons/favicon-16x16.png" />
+    <!-- Define o ícone da aba do navegador -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Link para o arquivo CSS externo que estiliza a página -->
+
+    <script defer src="./js/script.js"></script>
+    <!-- Link para o arquivo JavaScript externo, com defer para garantir que o script seja executado após o carregamento do HTML -->
+
+    <title>Pokédex</title>
+    <!-- Título da página que aparece na aba do navegador -->
+  </head>
+  <body>
+    <main>
+      <!-- Elemento principal que contém o conteúdo da página -->
+      <img src="#" alt="pokemon" class="pokemon__image" />
+      <!-- Imagem do Pokémon, inicialmente com src vazio -->
+
+      <h1 class="pokemon__data">
+        <!-- Cabeçalho que exibe os dados do Pokémon -->
+        <span class="pokemon__number"></span> -
+        <!-- Span para o número do Pokémon -->
+        <span class="pokemon__name"></span>
+        <!-- Span para o nome do Pokémon -->
+      </h1>
+
+      <form class="form">
+        <!-- Formulário para busca de Pokémon -->
+        <input
+          type="search"
+          class="input__search"
+          placeholder="Name or Number"
+          required/>
+      </form>
+      <!-- Tipo de entrada de busca -->
+      <!-- Classe para estilização do campo de busca -->
+      <!-- Texto de espaço reservado no campo de busca -->
+      <!-- Campo obrigatório -->
+
+      <div class="buttons">
+        <!-- Contêiner para os botões de navegação -->
+        <button class="button btn-prev">Prev &lt;</button>
+        <!-- Botão para buscar o Pokémon anterior -->
+        <button class="button btn-next">Next &gt;</button>
+        <!-- Botão para buscar o próximo Pokémon -->
+      </div>
+
+      <img src="./img/pokedex.png" alt="pokedex" class="pokedex" />
+      <!-- Imagem da Pokédex -->
+    </main>
+  </body>
+</html>
+
+ 
