@@ -1,6 +1,6 @@
 📖 Pokédex
 
-Uma Pokédex interativa desenvolvida com HTML, CSS, JavaScript, React, que permite visualizar informações detalhadas sobre diversos Pokémon. O projeto consome a [PokéAPI ou outra fonte de dados, se aplicável] para exibir estatísticas, tipos, habilidades e imagens dos Pokémon.
+Uma Pokédex interativa desenvolvida com HTML, CSS, JavaScript, React, que permite visualizar informações detalhadas sobre diversos Pokémon. O projeto exibe estatísticas, tipos, habilidades e imagens dos Pokémon.
 
 🚀 Funcionalidades
 
